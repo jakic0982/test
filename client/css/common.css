@@ -1,0 +1,78 @@
+/* 顶部页签 */
+#nav-top {
+  height: 30px;
+  line-height: 30px;
+  padding: 5px 0;
+  font-size: 20px;
+  border-bottom: 1px solid gray;
+  background: rgb(221, 221, 221);
+}
+#nav-top li {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.page {
+  padding: 10px;
+}
+
+#websites > div {
+  margin-bottom: 10px;
+}
+/* 网址 */
+#websites .most-use {
+  border-radius: 10px;
+  border: 1px solid gray;
+  padding: 12px;
+}
+#websites .sites {
+}
+#websites .sites > li {
+  width: 25%;
+  height: 1.5em;
+  line-height: 1.5em;
+  float: left;
+}
+#websites .sites li span {
+  background: url('../img/star-big.png') no-repeat;
+  background-size: 1.2em;
+  padding-left: 1.4em;
+}
+#websites .ads {
+  height: 1em;
+  margin-top: 10px;
+  color: gray;
+  font-size: 0.8em;
+}
+
+/*常用*/
+#common .brand {
+  float: left;
+  width: 33%;
+  margin: 4px;
+  background: green;
+}
+
+.header .headerTitle {
+  display: inline;
+}
+
+.header .headerImage {
+  display: inline;
+  float: right;
+}
+
+.line{ 
+  width:33%; 
+  height:2px; 
+  background:transparent; 
+  position:absolute; 
+  left:0; 
+  top:40px; 
+  display:block;
+}
+
+.line::before{ display:block; width:0; height:0; position:absolute; left:50%; margin-left:-6px;border:9px solid #000; border-color:transparent transparent white transparent;
+bottom:2px; content:'';}
+

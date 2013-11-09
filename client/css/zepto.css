@@ -1,0 +1,55 @@
+.collapse {
+  border-radius: 10px;
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 10px 0;
+  background: rgb(221, 221, 221);
+}
+.collapse .header {
+  height: 25px;
+}
+.collapse .body {
+  /*background: green;*/
+}
+
+.collapse .body .item {
+  position: relative;
+  zoom: 1;
+  height: 25px;
+  position: relative;
+}
+
+.collapse .body .item .subtitle {
+  float: left;
+  width: 20%;
+  border: 1px;
+}
+
+.collapse .body .item .list {
+width: 80%;
+overflow: hidden;
+zoom: 1;
+}
+
+.collapse .body .item .list li {
+  float: left;
+  width: 25%;
+  border: 1px;
+}
+
+a {
+text-decoration: none;
+cursor: pointer;
+}
+
+.scrollads {
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+}
+.scrollads li {
+  position: absolute;
+  list-style: none;
+  height: 20px;
+  width:400px;
+}
